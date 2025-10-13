@@ -9,11 +9,11 @@ const zones = [
 
 const getZoneStyle = (zoneName) => {
 const isActive = zoneName === activeZone
-return `flex items-center justify-center text-center
-text-xs sm:text-sm md:text-base font-medium border
-h-[22vw] w-[22vw] max-h-28 max-w-28
-rounded-xl transition duration-300
-${isActive ? 'bg-green-400 text-white animate-pulse shadow-lg' : 'bg-gray-200 text-gray-600'}`
+return `flex items-center justify-center text-center select-none
+text-xs sm:text-sm md:text-base font-semibold border
+h-[22vw] w-[22vw] max-h-32 max-w-32
+rounded-2xl transition duration-300
+${isActive ? 'bg-green-400 text-white motion-safe:animate-pulse shadow-xl' : 'bg-white/80 text-slate-700 border-white/60 shadow'}`
 }
 
 
