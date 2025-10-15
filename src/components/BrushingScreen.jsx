@@ -180,7 +180,7 @@ remainingTime > 0 ? (
 <div className="mt-6 flex items-center justify-center">
 {finished ? (
 <div className="flex gap-3">
-<button onClick={handleRestart} className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-2xl shadow-md text-lg transition">
+<button onClick={handleRestart} className="bg-blue-600 hover:bg-blue-700 text-blue-700 px-6 py-3 rounded-2xl shadow-md text-lg transition">
 Rejouer
 </button>
 <button onClick={handleExit} className="bg-white/80 hover:bg-white text-blue-700 px-6 py-3 rounded-2xl shadow-md text-lg transition border border-white/60">
